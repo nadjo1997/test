@@ -15,13 +15,13 @@ steps:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-    test :
+test:
       runs-on: ubuntu-latest
       steps:
         - name: check Uptime
-           run: uptime
+           run:uptime
         - name: Cpu info
-           run: nproc
+           run:nproc
         - name: kernel info
-           run: uname -r
+           run:uname -r
         
